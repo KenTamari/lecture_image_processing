@@ -1,7 +1,4 @@
-% ‰Û‘è‚Q@ŠK’²”‚Æ‹^Ž——ÖŠs
-% ‚QŠK’²C‚SŠK’²C‚WŠK’²‚Ì‰æ‘œ‚ð¶¬‚¹‚æD
-% ‰º‹L‚ÍƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Å‚ ‚éD
-% ‰Û‘èì¬‚É‚ ‚½‚Á‚Ä‚ÍuLennavˆÈŠO‚Ì‰æ‘œ‚ð—p‚¢‚æD
+
 
 clear; % •Ï”‚ÌƒI[ƒ‹ƒNƒŠƒA
 
@@ -23,7 +20,7 @@ IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 pause;
-% ‚WŠK’²‚É‚Â‚¢‚Ä‚ÍCŠeŽ©ŒŸ“¢‚µ‚Ä‚­‚¾‚³‚¢D
+% ‚WŠK’²‰æ‘œ‚Ì¶¬
 IMG00 = ORG>32;
 IMG01 = ORG>64;
 IMG02 = ORG>96;
