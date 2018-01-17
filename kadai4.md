@@ -8,20 +8,18 @@ imagesc(ORG); colormap(gray); colorbar;
 
 によって，画像を読み込み，モノクロにしたものを表示した結果を図１に示す．
 
-![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai4/img2.PNG?raw=true)  
+![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai4/img2.png?raw=true)  
 図1 原画像
 
-ヒストグラムとはディジタル画像における各濃度値の出現頻度を表すグラフである．
+ヒストグラムとはディジタル画像における各濃度値の出現頻度を表すグラフである．   
+ヒストグラムは次のようなプログラムで表示できる．
 
+imhist(ORG); % ヒストグラムの表示
 
+結果を図２に示す
 
-IMG = ORG > 64; % 輝度値が64以上の画素を1，その他を0に変換  
-imagesc(IMG); colormap(gray); colorbar;
-
-である．結果を図２に示す
-
-![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai4/img1.PNG?raw=true)  
-図2 閾値６４で２値化  
+![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai4/img1.png?raw=true)  
+図2 ヒストグラムの表示
 
 
 
