@@ -9,7 +9,7 @@ imagesc(ORG); colormap(gray); colorbar;
 pause; 
 によって，画像を読み込み，モノクロにしたものを表示した結果を図１に示す．
 
-![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai3/img0.PNG?raw=true)  
+![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai5/img1.png?raw=true)  
 図1 原画像
 
 
@@ -51,6 +51,6 @@ pause;
 
 出力結果を図２に示す．
 
-![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai3/img0.PNG?raw=true)  
+![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai5/img2.png?raw=true)  
 図2 判別分析法による２値化画像
 
