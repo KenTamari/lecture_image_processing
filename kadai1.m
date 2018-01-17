@@ -33,3 +33,4 @@ pause; % ˆê’â~
 IMG = imresize(IMG,0.5); % ‰æ‘œ‚Ìk¬
 IMG2 = imresize(IMG,32,'box'); % ‰æ‘œ‚ÌŠg‘å
 imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
+
