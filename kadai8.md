@@ -29,6 +29,9 @@ imagesc(IMG); colormap(jet); colorbar; % 画像の表示
 pause;  
 
 出力結果を図３に示す．
-![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai8/img2.png?raw=true)  
+![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai8/img3.png?raw=true)  
 図3 ラベリングの結果
 
+
+
+同じ連結成分同士で色分けされていることがわかる．
