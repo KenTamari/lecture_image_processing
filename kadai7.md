@@ -47,9 +47,25 @@ imhist(ORG); % 濃度ヒストグラムを生成、表示
 
 となり結果は図４のようになる．
 ![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai7/img4.png?raw=true)  
-図4 ダイナミックレンジを０から２５５にした画像の濃度ヒストグラム 
+図4 ダイナミックレンジを０から２５５にした画像の濃度ヒストグラム  
 
+さて，プログラム中の  
+ORG = uint8(ORG);  
+について考察をする．
 
+まず，この行をコメントアウトして濃度ヒストグラムを表示しようとすると  
+図5のようになってしまう  
 
+![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai7/img5.png?raw=true)  
+図5 濃度ヒストグラムの表示失敗 
 
+また，ORG = uint8(ORG);の意味は
+>"配列の要素をクラス uint8 の符号なし 8 ビット (1 バイト) 整数に変換するものである．"
+>> MathWorks公式ホームページ  <https://jp.mathworks.com/help/matlab/ref/uint8.html>
+
+であるので，これらから  
+imhist(ORG); % 濃度ヒストグラムを生成、表示  
+はdouble配列による変数の中身の表示には対応していないため，一度  
+ORG = uint8(ORG);  
+によりクラスuint8に変換しなければいけないものと思われる．
 
