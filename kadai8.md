@@ -28,7 +28,7 @@ IMG = bwlabeln(IMG);
 imagesc(IMG); colormap(jet); colorbar; % 画像の表示  
 pause;  
 
-出力結果を図３に示す．
+出力結果を図３に示す．  
 ![原画像](https://github.com/KenTamari/lecture_image_processing/blob/master/picture/kadai8/img3.png?raw=true)  
 図3 ラベリングの結果
 
