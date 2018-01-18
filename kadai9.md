@@ -28,9 +28,9 @@ pause;
 平滑化フィルタで雑音を除去する．  
 平滑化フィルタで雑音を除去し，画像を表示するプログラムは 
 
-IMG = filter2(fspecial('average',3),ORG); % 平滑化フィルタで雑音除去
-imagesc(IMG); colormap(gray); colorbar; % 画像の表示
-pause;
+IMG = filter2(fspecial('average',3),ORG); % 平滑化フィルタで雑音除去  
+imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
+pause;  
 
 である．
 
@@ -42,9 +42,9 @@ pause;
 メディアンフィルタで雑音を除去する．  
 メディアンフィルタで雑音を除去し，画像を表示するプログラムは 
 
-IMG = medfilt2(ORG,[3 3]); % メディアンフィルタで雑音除去
-imagesc(IMG); colormap(gray); colorbar; % 画像の表示
-pause;
+IMG = medfilt2(ORG,[3 3]); % メディアンフィルタで雑音除去  
+imagesc(IMG); colormap(gray); colorbar; % 画像の表示  
+pause;  
 
 である．
 
